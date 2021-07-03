@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/mediaStyles.css">
+    <script language="javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Register</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light colorGreen">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">Styles Conference</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li><a class="nav-link active" aria-current="page" href="/speakers">Speakers</a></li>
+                        <li><a class="nav-link active" aria-current="page" href="/schedule">Schedule</a></li>
+                        <li>
+                            <a class="nav-link active" aria-current="page" href="/venue">Venue</a>
+                        </li>
+                        <li><a class="nav-link active" aria-current="page" href="/register">Register</a></li>
+                    </ul>
+                    <div>
+                        <p class="colorTextDate">
+                            July 03.07.2021
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <section class="colorGreen w100">
+        <div class="pageDesc">
+            <div class="container">
+                <h2>Register</h2>
+                <p>Click bellow to subscribe and register in my page</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container centerGrid paddingHome">
+            <div class="row justify-content-evenly">
+                <div class="col-4">
+                    <h1 class="registerSizeHeaders">Purchase a Conference Pass</h1>
+                    <p>Free experience</p>
+                    <p>Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we’ll follow up and provide a receipt
+                        for your purchase. See you soon!</p>
+                    <h1 class="registerSizeHeaders">Why Attend?</h1>
+                    <ul>
+                        <li>providing ur skills</li>
+                        <li>One full day of workshops and presentations</li>
+                        <li>Hosted in Warsaw</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <form id="form">
+                        <div class="form-group marginRegister">
+                            <label for="formGroupExampleInput">Name</label>
+                            <input type="text" name="name" class="form-control" id="formGroupExampleInput" placeholder="Name input">
+                        </div>
+                        <div class="form-group marginRegister">
+                            <label for="formGroupExampleInput2">Email</label>
+                            <input type="text" name="email" class="form-control" id="formGroupExampleInput2" placeholder="Email input">
+                        </div>
+                        <div class="form-group marginRegister">
+                            <label for="formGroupExampleInput2">Number of Passes</label>
+                            <select name="number_passes" class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                              </select>
+                            <div class="form-group marginRegister">
+                                <label for="formGroupExampleInput2 ">Comment</label>
+                                <input type="text" name="comment" class="form-control" id="formGroupExampleInput2" placeholder="Comment input">
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-2 marginRegister">Confirm identity</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="colorGreen text-center text-white footer">
+        <div class="container p-4 pb-0">
+            <section>
+                <form id="formFooter">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for our newsletter</strong>
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-12">
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example2" class="form-control" />
+                                <label class="form-label" for="form5Example2">Email address</label>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </footer>
+    <script src="/javascripts/scriptParse.js"></script>
+</body>
+
+</html>
